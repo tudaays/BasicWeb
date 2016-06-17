@@ -1,0 +1,31 @@
+html{
+  background: #EFA48B;
+}
+body{
+  width: 650px;
+  margin: 50px auto;
+  background: #FCC8B2;
+  padding: 30px 20px;
+  color: #685369;
+  border-radius: 5px;
+}
+img{
+  max-width: 100%;
+}
+h1{
+  text-align: center;
+  font-family: "Courier New";
+  text-shadow: 0 0 2px #000000;
+}
+h2{
+  margin-top: 70px;
+  font-style: italic;
+}
+footer{
+  text-align:center;
+  font-family: "Courier New";
+  margin-top: 50px;
+}
+p{
+  line-height: 150%;
+}
