@@ -1,0 +1,53 @@
+*{
+  box-sizing: border-box;
+}
+html{
+  font-family:"Comic Sans MS";
+  text-align: center;
+  /*background-image: url('https://c2.staticflickr.com/4/3833/13213466454_1b1505fdb0_b.jpg');*/
+}
+
+p{
+  color:red;
+  background: green;
+  text-shadow: 0 0 5px #000000;
+  border: 1px dotted yellow;
+  width: 300px;
+  height: 150px;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 50px;
+}
+
+.bitch-h1{
+  color: yellow;
+}
+
+.title{
+  text-decoration: underline;
+}
+
+#gay-para{
+  font-weight: bold;
+}
+
+[href]{
+  color: pink;
+}
+
+[href]:hover{
+  background:green;
+}
+
+input:focus{
+  box-shadow: 0 0 5px #000000;
+}
+
+a:active{
+  font-size:40px;
+}
+
+footer{
+  text-align: right;
+  text-shadow: 0 0 5px #ff004c;
+}
