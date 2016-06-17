@@ -1,0 +1,25 @@
+.menu{
+  background: #d5b0ac;
+  color: #402e2a;
+  font-weight: bold;
+  text-align: center;
+}
+.menu-ver{
+  background: #ffffff;
+  color: #402e2a;
+  max-width: 100px;
+  font-weight: bold;
+}
+.item{
+  display: inline-block;
+  background: #d5b0ac;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  margin-top: 2px;
+  border-radius: 2px;
+}
+span:hover{
+  color: #ffffff;
+  background: #9cd08f;
+}
