@@ -1,0 +1,103 @@
+/*
+  position: absolute;
+  float + margin/ position:relative;
+  position: absolute/fixed + transform:translate();
+  top:50%; left: 50%; tx: translate(-50%,-50%);
+
+*/
+
+* {
+    box-sizing: border-box;
+}
+html {
+    font-family: Tahoma;
+    text-align: right;
+}
+body {
+    background-image: url("DungBG.png");
+    background-size: 100%;
+    margin-top: 150px;
+    margin-right: 150px;
+}
+form {
+    display: inline-block;
+    padding-top: 25px;
+    margin-bottom: 30px;
+    border: 0 none;
+    border-radius: 2px;
+    width: 300px;
+    height: 380px;
+}
+.box {
+    display: inline-block;
+    width: 280px;
+    height: 40px;
+    text-indent: 20px;
+    line-height: 40px;
+    color: #333333;
+    opacity: 0.8;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.box:focus {
+    border-bottom: 2px solid #dd453b;
+}
+.login {
+    border: 0 none;
+    background: #01a0c7;
+    color: #ffffff;
+    width: 280px;
+    height: 40px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 8px;
+    transition: background 0.3s ease-in-out 0.1s;
+}
+.login:hover {
+    background: #ffffff;
+    color: #01a0c7;
+    border: 2px solid #01a0c7;
+    /*border-radius: 3px;*/
+}
+button {
+    border: 0 none;
+    background: #3b5998;
+    color: #ffffff;
+    width: 280px;
+    height: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background 0.3s ease-in-out 0.1s;
+}
+button:hover {
+    background: #ffffff;
+    color: #3b5998;
+    border: 2px solid #3b5998;
+}
+div.check {
+    font-weight: bold;
+    font-size: 16px;
+}
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    background: #FC2F00;
+    border-radius: 100%;
+    position: relative;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
+}
+hr {
+    border: 1px solid #D7D9CE;
+    width: 250px;
+    margin-bottom: 30px;
+}
+div.header {
+    font-size: 14px;
+    line-height: 13px;
+}

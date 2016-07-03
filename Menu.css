@@ -10,7 +10,7 @@
     max-width: 100px;
     font-weight: bold;
 }
-.item {
+.menu span {
     display: inline-block;
     background: #d5b0ac;
     width: 100px;
@@ -19,6 +19,9 @@
     line-height: 28px;
     margin-top: 2px;
     border-radius: 2px;
+}
+.menu.menu-ver span {
+    display: block;
 }
 span:hover {
     color: #ffffff;

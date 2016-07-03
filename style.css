@@ -1,83 +1,84 @@
-*{
-  box-sizing: border-box;
+* {
+    box-sizing: border-box;
 }
-html{
-  font-family:"Tahoma";
-  text-align: center;
+html {
+    font-family: "Tahoma";
+    text-align: center;
 }
-body{
-  margin: 120px auto;
-  background: #e9ebee;
+body {
+    margin: 120px auto;
+    background: #e9ebee;
 }
-form{
-  display: inline-block;
-  background: #ffffff;
-  padding-top: 25px;
-  margin-top: 25px;
-  margin-bottom: 30px;
-  border: 0 none;
-  border-radius: 2px;
-  box-shadow: 2px 2px 2px #484848;
-
-  width: 300px;
-  height: 380px;
+form {
+    display: inline-block;
+    background: #ffffff;
+    padding-top: 25px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    border: 0 none;
+    border-radius: 2px;
+    box-shadow: 2px 2px 2px #484848;
+    width: 300px;
+    height: 380px;
 }
-.box{
-  border: 0 none;
-  width: 240px;
-  height: 50px;
-  color: #333333;
-  font-size: 18px;
-  border-bottom: 1px solid #000000;
-  margin-bottom: 20px;
-  padding-top: 20px;
+.box {
+    display: inline-block;
+    border: 0 none;
+    width: 240px;
+    height: 50px;
+    line-height: 50px;
+    color: #333333;
+    font-size: 18px;
+    border-bottom: 1px solid #000000;
+    margin-bottom: 20px;
+    padding-top: 20px;
 }
-.box:focus{
-  border-bottom: 2px solid #dd453b;
+.box:focus {
+    border-bottom: 2px solid #dd453b;
 }
-.login{
-  border: 0 none;
-  background: #dd453b;
-  color: #ffffff;
-  width: 200px;
-  height: 40px;
-  margin-bottom: 60px;
+.login {
+    border: 0 none;
+    background: #dd453b;
+    color: #ffffff;
+    width: 200px;
+    height: 40px;
+    margin-bottom: 60px;
+    transition: background 0.3s ease-in-out 0.1s;
 }
-.login:hover{
-  background: #ffffff;
-  color: #C5283D;
-  border: 2px solid #C5283D;
-  border-radius: 3px;
+.login:hover {
+    background: #ffffff;
+    color: #C5283D;
+    border: 2px solid #C5283D;
+    /*border-radius: 3px;*/
 }
-button{
-  border: 0 none;
-  background: #3b5998;
-  color: #ffffff;
-  width: 200px;
-  height: 40px;
+button {
+    border: 0 none;
+    background: #3b5998;
+    color: #ffffff;
+    width: 200px;
+    height: 40px;
+    transition: background 0.3s ease-in-out 0.1s;
 }
-button:hover{
-  background: #ffffff;
-  color: #3b5998;
-  border: 2px solid #3b5998;
-  border-radius: 3px;
+button:hover {
+    background: #ffffff;
+    color: #3b5998;
+    border: 2px solid #3b5998;
+    /*border-radius: 3px;*/
 }
-hr{
-  border: 1px solid #D7D9CE;
-  width: 250px;
-  margin-bottom: 30px;
+hr {
+    border: 1px solid #D7D9CE;
+    width: 250px;
+    margin-bottom: 30px;
 }
-h1{
-  font-family: "Courier";
-  color: #484548;
-  font-weight:lighter;
-  font-size: 30px;
-  margin-bottom: 14px;
+h1 {
+    font-family: "Courier";
+    color: #484548;
+    font-weight: lighter;
+    font-size: 30px;
+    margin-bottom: 14px;
 }
-.title{
-  text-decoration: underline;
-}
-
-#gay-para{
-  font-weight: bold;
+h1:hover {
+    text-shadow: 0 0 2px #000000;
+    /*transition: width 1s ease-in-out 0s;
+    width: 250px;*/
 }

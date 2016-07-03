@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-family: "Tahoma";
+    text-align: right;
+}
+body {
+    background-image: url("gaybg.png");
+    background-size: 100%;
+    margin: 70px 150px auto auto;
+}
+h1 {
+    display: inline;
+    margin: 0px 0px 0px 5px;
+    text-transform: uppercase;
+    color: #01a0c7;
+    font-weight: lighter;
+    font-size: 36px;
+}
+h2 {
+    line-height: 18px;
+}
+h3 {
+    line-height: 16px;
+    font-weight: lighter;
+}
+button.facebook {
+    width: 260px;
+    height: 40px;
+    border: 0 none;
+    background: #3b5998;
+    color: #ffffff;
+    border-radius: 7px;
+}
+.text-hr {
+    display: inline-block;
+    width: 250px;
+    text-align: center;
+    border-bottom: 1px solid #313D5A;
+    line-height: 0.1em;
+    margin: 15px 0 15px 0;
+}
+.text-hr span {
+    background: #fff;
+    padding: 0 10px;
+}
+.header {}
+form {}
+input {
+    display: inline-block;
+    width: 260px;
+    height: 40px;
+    margin: 7px 0 7px 0;
+    padding: 0 0 0 4px;
+    border-radius: 7px;
+    color: #000000;
+}
+input[type="submit"] {
+    border: 0 none;
+    background: #01a0c7;
+    text-transform: uppercase;
+    color: #ffffff;
+}
